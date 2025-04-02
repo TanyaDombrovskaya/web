@@ -1,0 +1,297 @@
+body {
+    background-image: url('./image/fon.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_text {
+    display: flex;
+    justify-content: center;
+    font-family: "MainFont";
+    font-size: 50px;
+    color: #EAEAEA;
+    letter-spacing: 8px;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 577px;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    border: 2px solid #EAEAEA;
+    background-color: rgb(90, 89, 89, 0.64);
+    backdrop-filter: blur(10px);
+}
+
+.task {
+    width: 436px;
+    height: 58px;
+    border: 2px solid #F6F6F6;
+    background-color: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px);
+    caret-color: transparent;
+    outline: none;
+    color: #FFFFFF;
+    font-family: "MainFont";
+    font-size: 22px;
+    padding-left: 20px;
+    transition: box-shadow 0.4s;
+}
+
+.button_add {
+    height: 56px;
+    width: 300px;
+    margin-top: 50px;
+    font-family: "MainFont";
+    background-color: #F6F6F6;
+    font-size: 22px;
+    border: none;
+    transition: box-shadow 0.4s;
+    color: #323232;
+}
+
+.main_item {
+    width: 460px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.new_block {
+    height: 60px;
+    width: 460px;
+    background-color: #F6F6F6;
+    margin-bottom: 20px;
+    font-family: 'MainFont';
+    font-size: 22px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    transition: width 0.8s;
+}
+
+.mark_yes {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    font-family: 'MainFont';
+    font-size: 22px;
+    font-weight: 900;
+    color: #323232;
+    border: none;
+    background-color: greenyellow;
+    z-index: 1;
+}
+
+.mark_no {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    border: none;
+    font-family: 'MainFont';
+    font-size: 22px;
+    font-weight: 900;
+    color: #323232;
+    z-index: 1;
+}
+
+.clear {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 70px;
+    border: 2px solid #EAEAEA;
+    background-color: rgb(90, 89, 89, 0.64);
+    backdrop-filter: blur(10px);
+    color: #FFFFFF;
+    font-family: "MainFont";
+    font-size: 22px;
+    transition: box-shadow 0.4s;
+}
+
+.katalog {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70px;
+    border-top: 2px solid #EAEAEA;
+    border-bottom: 2px solid #EAEAEA;
+    border-right: 2px solid #EAEAEA;
+    background-color: rgb(90, 89, 89, 0.64);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    transition: width 0.5s ease;
+    z-index: 1;
+}
+
+.menu {
+    color: #FFFFFF;
+    font-family: "MainFont";
+    font-size: 30px;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 22px;
+    cursor: default;
+    background-color: transparent;
+    border: none;
+    display: block;
+}
+
+.clear_all_mark {
+    color: #FFFFFF;
+    font-family: "MainFont";
+    font-size: 30px;
+    position:absolute;
+    bottom: 15px;
+    margin-left: 17px;
+    transition: text-shadow 0.4s;
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.item_yes {
+    padding-bottom: 10px;
+    padding-left: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.mark {
+    font-family: "MainFont";
+    font-size: 18px;
+    color: #EAEAEA;
+    padding-right: 30px;
+}
+
+.item_text_yes {
+    font-family: "MainFont";
+    font-size: 18px;
+    color: #EAEAEA;
+    letter-spacing: 8px;
+    cursor: default;
+}
+
+.button_delete_item_yes {
+    color: #FFFFFF;
+    font-family: "MainFont";
+    font-size: 20px;
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.katalog .item_text_yes {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    transition-delay: 0.8s;
+}
+
+.katalog .button_delete_item_yes {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    transition-delay: 0.8s;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-family: "MainFont";
+    font-size: 22px;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+}  
+
+@font-face {
+    font-family: 'MainFont';
+    src: url('./text/Disket.woff') format('woff'),
+         url('./text/Disket.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.task:hover {
+    box-shadow: 0 0 6px #FFFFFF;
+}
+
+.button_add:hover {
+    box-shadow: 0 0 6px #FFFFFF;
+}
+
+.task:focus {
+    box-shadow: 0 0 6px #FFFFFF;
+}
+
+.clear:hover {
+    box-shadow: 0 0 6px #FFFFFF;
+}
+
+.clear_all_mark:hover {
+    text-shadow: 0 0 6px #FFFFFF;
+}
+
+.button_delete_item_yes:hover {
+    transition: text-shadow 0.7s;
+    text-shadow: 0 0 6px #FFFFFF;
+}
+
+@keyframes block_animation_one {
+    0% {
+        width: 460px;
+    }
+    100% {
+        width: 340px;
+    }
+}
+
+@keyframes block_animation_two {
+    0% {
+        width: 340px;
+    }
+    100% {
+        width: 460px;
+    }
+}
+
+.main_item:hover .new_block {
+    animation: block_animation_one 0.8s forwards;
+}
+
+.main_item:not(:hover) .new_block {
+    animation: block_animation_two 0.8s forwards;
+}   
+
+.katalog:hover{
+    width: 580px;
+}
+
+.katalog:not(:hover) {
+    transition-delay: 0.7s;
+    width: 70px;
+}
+
+.katalog:hover .item_text_yes {
+    opacity: 1;
+}
+
+.katalog:hover .button_delete_item_yes {
+    opacity: 1;
+}

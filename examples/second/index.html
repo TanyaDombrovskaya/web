@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+        <title>Second base</title>
+        <meta http-equiv="Content-type" content="text/html" charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="#" method="get">
+            <h2 class="reg">Registration</h2>
+            <div class="naming">
+                <span class="name">Name</span>
+                <input placeholder="Name" name="name">
+            <br>
+                <span class="firstname">Firstname</span>
+                <input placeholder="Firstname" type="firstname" name="firstname">
+            </div>
+            <br>
+            <div class="radio">
+                <input type="radio" name="age">
+                <span class="choose">before 18</span>
+                <br>
+                <input type="radio" name="age">
+                <span class="choose">18-45</span>
+                <br>
+                <input type="radio" name="age">
+                <span class="choose">more than 45</span>
+            </div>
+            <br>
+            <div class="check">
+                <span class="choose">Availability of a car</span>
+                <input type="checkbox" name="car">
+            </div>
+            <br>
+            <div class="car">
+                <span class="ch_car">Car make</span>
+                <select name="auto">
+                    <option selected value="#"></option>
+                    <option value="bmw">BMW</option>
+                    <option value="audi">Audi</option>
+                    <option value="mersedes">Mersedes</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div class="photo">
+                <span class="ch_photo">Your photo</span>
+                <input type="file">
+            </div>
+            <br>
+            <div class="password">
+                <span class="i_p">Your password</span>
+                <input type="password" name="password">
+            </div>
+            <br>
+            <div class="other">
+                <p class="o_i">Other information</p>
+                <textarea name="inf"></textarea>
+            </div>
+            <br>
+            <div class="buttons">
+                <button type="sumbit">Send</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>TaskMaster</title>
+    </head>
+    <form>
+        <body>
+            <span class="main_text">TaskMaster</span>
+            <div class="katalog">
+                <span class="menu">☰</span>
+                <button class="clear_all_mark" onclick="clear_all_mark(event)">✕</butoon>
+            </div>
+            <button class="clear" onclick="clear_all(event)">Clear all</button>
+
+            <div class="container" id="container">
+                <input type="text" placeholder="Your task" class="task" id="task" maxlength="20">
+                <button class="button_add" onclick="add_new_block();">Add</button>
+            </div>
+            <script src="./data.js"></script>
+        </body>
+    </form>
+</html>

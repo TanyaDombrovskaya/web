@@ -1,0 +1,136 @@
+.go{
+    border: 1px solid rgb(197, 199, 201);
+    text-align: center;
+    margin: 100px auto 11px auto;
+    height: 409px;
+    width: 356px;
+}
+
+.reg{
+    border: 1px solid rgb(197, 199, 201);
+    text-align: center;
+    margin: 0 auto 10px auto;
+    height: 59px;
+    width: 356px;
+}
+
+
+.insta{
+    margin: 44px 0 30px 0;
+}
+
+.user_name{
+    margin: 0 0 7px 0;
+    height: 34px;
+    width: 278px;
+    border: 1px solid rgb(197, 199, 201); 
+    border-radius: 5px;
+    background-color: rgb(242, 243, 245);
+}
+
+.password{
+    margin: 0 0 16px 0;
+    height: 34px;
+    width: 278px;
+    border: 1px solid rgb(197, 199, 201); 
+    border-radius: 5px;
+    background-color: rgb(242, 243, 245);
+}
+
+.entrance{
+    height: 30px;
+    width: 284px;
+    background-color: rgb(59, 167, 255);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.line{
+    flex-grow: 1;
+    height: 1.2px;
+    background-color: #dbdbdb;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.or{
+    margin: 0 15px 0 15px;
+    color: #8e8e8e;
+    font-size: 17px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(129, 129, 130);
+}
+
+.facebook{
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+}
+
+.face_link{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(3, 13, 105);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.link{
+    margin: 30px 0 0 0;
+}
+
+.met_pass{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    display: block;
+    margin: 18px 0 0 0;
+    color: rgb(3, 13, 105);
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.registr{
+    margin: 19px 0 0 0;
+}
+
+.no_acc{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.reg_link{
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(59, 167, 255);
+}
+
+.download{
+    text-align: center;
+    margin: 18px 0 0 0;
+}
+
+.add{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.links{
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+::placeholder {
+    font-size: 11px;
+    padding: 10px;
+    color: rgb(129, 129, 130);
+}

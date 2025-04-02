@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Card</title>
+    </head>
+    <body>
+        <form>
+            <div class="container">
+                <div class="card_with_cvv" id="card_with_cvv">
+                    <div class="block"></div>
+                    <span class="cvv_card" id="output_cvv">CVV</span>
+                </div>
+                <div class="card" id="card">
+                    <span class="data_card" id="output_data">XX/XX</span>
+                    <span class="number_card" id="output_nums">XXXX XXXX XXXX XXXX</span>
+                    <span class="holder_card" id="output_holder">HOLDER NAME</span>
+                </div>
+                <div class="window_up">
+                    <input type="text" class="number_win" id="numbers" oninput="validate_nums(); add_space(); backspace_space(event); replace_numbers()" placeholder="XXXX XXXX XXXX XXXX">
+                    <input type="text" class="holder_win" id="holder" oninput="validate_holder(); upper_case(); holder_limit(); replace_holder()" placeholder="HOLDER NAME">
+                    <div class="dop">
+                        <input type="text" class="data_win" id="data" oninput="validate_data(); add_slash(); backspace_slash(event); replace_data()" placeholder="XX/XX">
+                        <input type="text" class="cvv_win" id="cvv" oninput="validate_cvv(); limit_cvv(); replace_cvv()" placeholder="CVV">
+                    </div>
+                    <button class="sign_win" type="value">SIGN UP</button>
+                </div>
+            </div>
+            <script src="data.js"></script>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,219 @@
+body {
+    background-image: url('./img/place.png');
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card_with_cvv {
+    background:  #F9F7FA;
+    box-shadow: -8px 0 10px -5px rgba(89, 88, 88, 0.6), 8px 0 10px -5px rgba(89, 88, 88, 0.6);
+    border: none;
+    border-radius: 25px;
+    width: 490px;
+    height: 324px;
+    margin: 250px 0 0 260px;
+    transform: translateX(-200%);
+}
+
+.block {
+    width: 490px;
+    height: 120px;
+    background-color: #454E7C;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cvv_card {
+    display:block;
+    font-size: 27px;
+    color: #454E7C;
+    font-family: ISOCPEUR;
+    letter-spacing: 4px;
+    margin: 30px 0 0 47px;
+}
+
+.expanded_to_cvv {
+    transform: translateX(0%);
+    transition: transform 1s ease;
+    transition-delay: 0.5s;
+}
+
+.expanded_from_cvv {
+    transform: translateX(-200%);
+    transition: transform 1s ease;
+}
+
+.card {
+    position: absolute;
+    background: #454E7C;
+    box-shadow: -8px 0 10px -5px rgba(89, 88, 88, 0.6), 8px 0 10px -5px rgba(89, 88, 88, 0.6);
+    border: none;
+    border-radius: 25px;
+    width: 490px;
+    height: 324px;
+    margin: 250px 0 0 260px;
+}
+
+.expanded_from {
+    transform: translateX(-200%);
+    transition: transform 1s ease;
+}
+
+.expanded_to {
+    transform: translateX(0%);
+    transition: transform 1s ease;
+    transition-delay: 0.5s;
+}
+
+.window_up {
+    display: grid;
+    background-color: rgba(106, 119, 147, 0.6);
+    backdrop-filter: blur(3px);
+    box-shadow: -8px 0 10px -5px rgba(89, 88, 88, 0.6), 
+    8px 0 10px -5px rgba(89, 88, 88, 0.6);
+    border: none;
+    border-radius: 25px;
+    width: 410px;
+    height: 489px;
+    margin: 160px 0 0 120px;
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+}
+
+.data_card,
+.number_card,
+.holder_card {
+    display:block;
+    font-size: 27px;
+    color: #F9F7FA;
+    font-family: ISOCPEUR;
+    letter-spacing: 4px;
+}
+
+.data_card {
+    margin: 40px 0 0 47px;
+}
+
+.number_card {
+    margin: 120px 0 0 47px;
+}
+
+.holder_card {
+    margin: 15px 0 0 47px;
+}
+
+/*  */
+
+.number_win,
+.holder_win,
+.data_win,
+.cvv_win,
+.sign_win {
+    font-family: ISOCPEUR;
+    height: 60px;
+}
+
+.dop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 0 40px 0;
+}
+
+.number_win,
+.holder_win {
+    border: none;
+    border-radius: 18px;
+    width: 340px;
+    background-color: #F9F7FA;
+    font-size: 19px;
+    caret-color: transparent;
+    letter-spacing: 4px;
+    color: #454E7C;
+    transition: box-shadow 0.3s;
+    text-align: center;
+}
+
+.holder_win {
+    margin: 0 0 40px 0;
+}
+
+.number_win {
+    margin: 50px 0 40px 0;
+}
+
+.data_win,
+.cvv_win {
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    caret-color: transparent;
+    transition: box-shadow 0.3s;
+    text-align: center;
+    font-size: 19px;
+    color: #454E7C;
+    letter-spacing: 4px;
+    background-color: #F9F7FA;
+}
+
+.cvv_win {
+    margin: 0 0 0 16px;
+}
+
+.sign_win {
+    border: none;
+    border-radius: 18px;
+    width: 340px;
+    background-color: #454E7C;
+    color: #F9F7FA;
+    font-size: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+::placeholder {
+    text-align: center;
+    color: #454E7C;
+    font-family: ISOCPEUR;
+    font-size: 19px;
+    letter-spacing: 4px;
+}
+
+.number_win:hover {
+    box-shadow: 0 0 5px #454E7C;
+}
+
+.number_win:focus {
+    outline: 2px solid #454E7C;
+}
+
+.holder_win:hover {
+    box-shadow: 0 0 5px #454E7C;
+}
+
+.holder_win:focus {
+    outline: 2px solid #454E7C;
+}
+
+.data_win:hover {
+    box-shadow: 0 0 5px #454E7C;
+}
+
+.data_win:focus {
+    outline: 2px solid #454E7C;
+}
+
+.cvv_win:hover {
+    box-shadow: 0 0 5px #454E7C;
+}
+
+.cvv_win:focus {
+    outline: 2px solid #454E7C;
+}
+
+.sign_win:hover {
+    background-color: #F9F7FA;
+    color: #454E7C;
+}

@@ -1,0 +1,70 @@
+h1 {
+    text-align:center;
+    color: rgb(252, 179, 83);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    text-align:center;
+    color: rgb(43, 158, 129);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+}
+
+p {
+    color: rgb(76, 35, 153);
+    text-align: justify;
+    width: 1600px;
+    font-size: 18px;
+    line-height: 28px;
+    text-indent: 25px;
+}
+
+ol {
+    color: rgb(184, 43, 24);
+    width: 700px;
+    font-style: italic;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+ul {
+    color: rgb(184, 43, 24);
+    width: 700px;
+    font-style: italic;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+table {
+    width: 500px;
+    height: 200px;
+    text-align:center;
+    b {
+        color:rgb(53, 24, 107);
+    }
+}
+
+.eee {
+	color: green;
+}
+.zzz {
+	color: red;
+}
+
+.red {
+	color: red;
+}
+
+.block1 {
+	color: rgb(151, 7, 7);
+}
+
+.block2 {
+	color: rgb(161, 161, 161);
+}
+
+

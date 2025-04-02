@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.reg{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    text-shadow: 3px 3px 2px #000;
+    letter-spacing: 15px;
+    line-height: 100px;
+}
+
+.naming, .check, .buttons{
+    text-align: center;
+}
+
+.radio{
+    text-align: center;
+    line-height: 50px;
+}
+
+.car, .photo{
+    text-align: right;
+    line-height: 30px;
+}
+
+.password, .other{
+    text-align: left;
+    line-height: 15px;
+}
+
+.name, .firstname{
+    font-size: 25px;
+    color: rgb(75, 214, 75);
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    text-shadow: 3px 3px 2px #000;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    white-space: normal;
+    line-height: 30px;
+}
+
+.choose{
+    color: blue;
+    font-style: italic;
+    font-family: "Times New Roman", Times;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 2px #000;
+    letter-spacing: 10px;
+    font-weight: 700;
+    word-spacing: 20px;
+}
+
+
+.ch_car{
+    color:blueviolet;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Times New Roman";
+    text-shadow: 3px 3px 2px #000;
+    font-weight: 800;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
+.ch_photo{
+    color: coral;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Times New Roman";
+    text-shadow: 3px 3px 2px #000;
+    font-weight: 700;
+    letter-spacing: 15px;
+    word-spacing: 25px;
+}
+
+.i_p{
+    color:chartreuse;
+    font-style: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    text-shadow: 3px 3px 2px #000;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+.o_i{
+    color: chartreuse;
+    font-style: bold;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-family: "Times New Roman";
+    text-shadow: 3px 3px 2px #000;
+    font-weight: 750;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+}

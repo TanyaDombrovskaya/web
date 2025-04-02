@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Калькулятор</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <input class="text_result" type="text" placeholder="0" readonly>
+                <br>
+            <button class="clear" onclick=clearInput()>C</button>
+            <button class="backspace" onclick=backspace()><</button>
+                <br>
+            <button class="number7" onclick="appendToResult('7')">7</button>
+            <button class="number8" onclick="appendToResult('8')">8</button>
+            <button class="number9" onclick="appendToResult('9')">9</button>
+            <button class="plus" onclick="appendToResult('+')">+</button>
+                <br>
+            <button class="number4" onclick="appendToResult('4')">4</button>
+            <button class="number5" onclick="appendToResult('5')">5</button>
+            <button class="number6" onclick="appendToResult('76')">6</button>
+            <button class="minus" onclick="appendToResult('-')">-</button>
+                <br>
+            <button class="number1" onclick="appendToResult('1')">1</button>
+            <button class="number2" onclick="appendToResult('2')">2</button>
+            <button class="number3" onclick="appendToResult('3')">3</button>
+            <button class="multiply" onclick="appendToResult('*')">*</button>
+                <br>
+            <button class="result" onclick=calculate()>=</button>
+            <button class="number0" onclick="appendToResult('0')">0</button>
+            <button class="doot" onclick="appendToResult('.')">.</button>
+            <button class="divide" onclick="appendToResult('/')">/</button>
+        </div>
+        <script src="data.js"></script>
+    </body>
+</html>
