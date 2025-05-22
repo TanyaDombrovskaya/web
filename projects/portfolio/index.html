@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PhotoLens - Фотопортфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Photo<span>Lens</span></a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Запечатлеваю моменты, которые вдохновляют</h1>
+                <p>Профессиональная фотосъемка для ваших самых важных событий и творческих проектов</p>
+                <a href="#contact" class="btn">Связаться со мной</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Привет! Меня зовут Таня, и я фотограф. Я люблю запечатлевать особые моменты и эмоции через свою камеру.
+                        Я специализируюсь на портретной, семейной, праздничной и детской фотографии. Моя цель — создать красивые снимки, которые рассказывают историю и показывают индивидуальность каждого момента. Я использую профессиональное оборудование и обращаю внимание на естественный свет и композицию. Каждый кадр — это маленькое произведение искусства, созданное с душой.</p>
+                    <div class="button-work-container">
+                        <a href="#portfolio" class="btn">Посмотреть работы</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./image/myphoto.jpg" alt="Фотограф за работой">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Мои работы</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="./image/portret.jpg">
+                    <div class="gallery-item-overlay">
+                        <h3>Портретная фотосессия</h3>
+                        <p>Студийная съемка с естественным светом</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/show.jpg">
+                    <div class="gallery-item-overlay">
+                        <h3>Праздничная фотосессия</h3>
+                        <p>Искренние эмоции значимого дня</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/group.jpg">
+                    <div class="gallery-item-overlay">
+                        <h3>Групповая съемка</h3>
+                        <p>Стильные фото вашей компании</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/item.jpg">
+                    <div class="gallery-item-overlay">
+                        <h3>Предметная фотосъемка</h3>
+                        <p>Для проектов и каталогов</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/family.jpg">
+                    <div class="gallery-item-overlay">
+                        <h3>Семейная фотосессия</h3>
+                        <p>Теплые семейные моменты</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/child.jpg">
+                    <div class="gallery-item-overlay">
+                        <h3>Детская фотосессия</h3>
+                        <p>Моменты из жизни детей</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь со мной</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон (необязательно)</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="btn">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo">Photo<span>Lens</span></div>
+            <div class="social-links">
+                <img src="./image/insta.png">
+                <img src="./image/facebook.png" alt="">
+                <img src="./image/telegram.png" alt="">
+            </div>
+            <p>&copy; 2025 PhotoLens. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+<script src="data.js"></script>
+</html>
