@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     const animateOnScroll = function() {
-        const elements = document.querySelectorAll('.about-text, .about-image, .gallery-item, .contact-form, .answers-group');
+        const elements = document.querySelectorAll('.about-text, .about-image, .gallery-item, .contact-form');
         
         elements.forEach(element => {
             const elementPosition = element.getBoundingClientRect().top;
