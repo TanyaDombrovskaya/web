@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+header {
+    height: 20%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+header p {
+    color: white;
+    font-family: 'Bebas';
+    font-size: 30px;
+    line-height: 1;
+}
+
+.triangle-big {
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid #00A4E5;
+    margin-top: -3px;
+}
+
+.triangle-small {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #00A4E5;
+    margin-top: -3px;
+}
+
+.main-text-preview-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.main-text-preview-container h1 {
+    color: white;
+    font-family: 'Bebas';
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+
+.main-text-preview-container p {
+    color: white;
+    font-family: 'Open-Sans';
+    font-size: 15px;
+}
+
+.scroll-down-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.scroll-down-text-container p {
+    color: white;
+    font-family: 'Open-Sans';
+    letter-spacing: 6px;
+    font-size: 12px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.logo p {
+    font-size: 18px;
+    font-family: 'Bebas';
+    line-height: 1;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.links a{
+    color: #48555B;
+    text-decoration: none;
+    font-family: 'Open-Sans';
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(./fonts/ofont.ru_Bebas\ Neue.ttf);
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url(./fonts/ofont.ru_Open\ Sans.ttf);
+}
