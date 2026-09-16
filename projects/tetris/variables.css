@@ -1,0 +1,10 @@
+:root {
+    --extra-blue: #2219B2;
+    --night-blue: #2219B2;
+    --dark-blue: #0d0b30;
+    --violet-blue: #554DD8;
+    --light-blue: #7872D8;
+    --white: #fff;
+
+    --blue-gradient: linear-gradient(10deg, var(--light-blue), var(--dark-blue));
+}

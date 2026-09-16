@@ -1,0 +1,97 @@
+@import url("./variables.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--blue-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-zone {
+    width: 40%;
+    height: 90%;
+    background-color: color-mix(in srgb, var(--violet-blue) 50%, transparent);
+    border: solid 1px var(--white);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-container {
+    width: 80%;
+    height: 75%;
+    background-color: var(--white);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#tetris-canvas {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    height: 6%;
+}
+
+.play-button {
+    background-color: var(--extra-blue);
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    user-select: none;
+}
+
+.play-button:hover {
+    box-shadow: 0 0 15px 2px var(--white);
+}
+
+.rating-button {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: solid 3px var(--night-blue);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--night-blue);
+    cursor: pointer;
+    transition: background-color 1s ease, color 1s ease, box-shadow 1s ease;
+    user-select: none;
+}
+
+.rating-button:hover {
+    background-color: var(--night-blue);
+    color: var(--white);
+    box-shadow: 0 0 15px 2px var(--white);
+}
