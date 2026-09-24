@@ -1,0 +1,22 @@
+:root {
+    --bg-dark: #1c1c23;
+    --bg-main: #18191e;
+    --bg-card: #202229;
+    --bg-card-hover: #2b2e37;
+  
+    --text-white: #ffffff;
+    --text-primary: #e2e4e9;
+    --text-muted: #a9aeb7;
+    --text-disabled: #53565d;
+  
+    --brand-blue: #2563eb;
+    --brand-blue-hover: #1d4ed8;
+    
+    --status-todo: #9ca3af;
+    --status-progress: #3b82f6; 
+    --status-review: #f59e0b;
+    --status-done: #10b981;
+    --status-danger: #ef4444;
+
+    --border-color: #262930;
+}
