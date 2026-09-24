@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskModerator - Вход</title>
     <link rel="stylesheet" href="./loginStyles.css">
+    <link rel="stylesheet" href="./registerStyles.css">
     <link rel="icon" href="./logo.png">
 </head>
 <body>
